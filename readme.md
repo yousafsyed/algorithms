@@ -38,7 +38,7 @@ Done so far:
 
 (The MIT License)
 
-Algorithms and Containers project is Copyright (c) 2009 Kanwei Li
+Algorithms and Containers project is Copyright (c) 2015 Yousaf Syed
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
