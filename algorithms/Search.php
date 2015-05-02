@@ -11,11 +11,11 @@ class Search {
      *
      * @param array $container The sorted array
      * @param int $item The  item to be searched
-     * *
+     * @return value
      */
     public static function binary_search($container, $item) {
         $low = 0;
-        $high = count($container);
+        $high = count($container)-1;
         while ($low <= $high) {
             $mid = ($low + $high) / 2;
             $val = $container[$mid];
@@ -87,7 +87,7 @@ class Search {
      *
      * @param int $key the key to be searched in array
      * @param array $a The array of sorted elements
-     *
+     * @return $key
      */
     public static function jump_search($x, $list) {
         // calculate the step
