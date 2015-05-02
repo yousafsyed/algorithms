@@ -31,9 +31,6 @@ Done so far:
 		  - Insertion sort           Algorithms\Sort::insertion_sort
 
 
-
-
-
 ## LICENSE:
 
 (The MIT License)
