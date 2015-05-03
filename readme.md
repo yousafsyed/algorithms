@@ -19,12 +19,12 @@ compare performance in different situations.
 
 Done so far:
 
-		*Containers
-		  - Stack			Containers\Stack
+		* Containers
+		  - Stack			         Containers\Stack
 		* Search algorithms
 		  - Binary Search            Algorithms\Search::binary_search
 		  - Knuth-Morris-Pratt       Algorithms\Search::kmp_search
-		  - Jump Search			Algorithms\Search::jump_search
+		  - Jump Search              Algorithms\Search::jump_search
 		* Sort algorithms           
 		  - Bubble sort              Algorithms\Sort::bubble_sort
 		  - Comb sort                Algorithms\Sort::comb_sort

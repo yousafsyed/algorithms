@@ -11,7 +11,11 @@ class Stack {
         // stack can only contain this many items
         $this->limit = $limit;
     }
-
+    /**
+     *Stable: Yes
+     *
+     *@param string $item to be added to the stack
+     */
     public function push($item) {
         // trap for stack overflow
         if (count($this->stack) < $this->limit) {
@@ -21,7 +25,9 @@ class Stack {
             throw new RunTimeException('Stack is full!');
         }
     }
-
+     /**
+     *This function delets the last most elment from the Stack
+     */
     public function pop() {
         if ($this->isEmpty()) {
             // trap for stack underflow
@@ -31,11 +37,17 @@ class Stack {
             return array_shift($this->stack);
         }
     }
-
+    /**
+     *This resturns the last most element of the stack
+     * @return string
+     */
     public function top() {
         return current($this->stack);
     }
-
+    /**
+     *This resturns the last most element of the stack
+     * @return bool
+     */
     public function isEmpty() {
         return empty($this->stack);
     }
