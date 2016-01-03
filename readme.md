@@ -15,12 +15,13 @@ This project will create such a library with documentation on when to use a
 particular structure/algorithm. It will also come with a benchmark suite to
 compare performance in different situations.
 ## Install via composer
-´´´
+
+```
  composer require yousafsyed/algorithms
-´´´
+```
 ## Usage
-´´´php
-	require "./vendor/autoload.php";
+```php
+        require "./vendor/autoload.php";
 		$x = 4;
 		$list = array(5,2,3,4,1);
 	//Sort Algorithms examples
@@ -47,7 +48,7 @@ compare performance in different situations.
 		$stack->push(4);
 		$stack->push(5);
 		echo $stack->top();
-´´´
+```
 
 ## FEATURES:
 
