@@ -1,0 +1,25 @@
+{
+    "name": "yousafsyed/algorithms",
+    "description": "Original Proposal: Using the right data structure or algorithm for the situation is an important aspect of programming. In computer science literature, many data structures and algorithms have been researched and extensively documented. However, there is still no standard library in Php implementing useful structures and algorithms like Red/Black Trees, tries, different sorting algorithms, etc. This project will create such a library with documentation on when to use a particular structure/algorithm. It will also come with a benchmark suite to compare performance in different situations.",
+    "license": "MIT",
+    "keywords": ["algorithms", "stack", "sort","bubble sort","binary search"],
+    "authors": [{
+        "name": "Yousaf Syed",
+        "email": "mmesunny@gmail.com"
+    }],
+    "require": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Algorithms\\": "src/",
+            "Containers\\":"src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
