@@ -21,7 +21,7 @@ before_script:
 
 script:
   ## PHP_CodeSniffer
-  - phpcs --report=emacs --standard=PSR2 . --ignore=vendor/*
+  ## - phpcs --report=emacs --standard=PSR2 . --ignore=vendor/*
   ## PHP Copy/Paste Detector
   - php phpcpd.phar --verbose .
   ## PHP Mess Detector
@@ -34,10 +34,12 @@ script:
   ## PHPLOC
   - php phploc.phar . --exclude vendor
   ## PHPUNIT
+  - composer install
   - phpunit .
   ## LINT
   - find ./ -type f -name \*.php -exec php -l {} \;
 
+
 notifications:
   email:
-    cameralife@phor.net
+    mmesunny@gmail.com
