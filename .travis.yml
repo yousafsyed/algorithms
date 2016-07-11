@@ -25,12 +25,12 @@ script:
   ## PHP Copy/Paste Detector
   - php phpcpd.phar --verbose .
   ## PHP Mess Detector
-  - phpmd . text cleancode --exclude vendor
-  - phpmd . text codesize --exclude vendor
-  - phpmd . text controversial --exclude vendor
-  - phpmd . text design --exclude vendor
-  - phpmd . text naming --exclude vendor
-  - phpmd . text unusedcode --exclude vendor
+  ## - phpmd . text cleancode --exclude vendor
+  ## - phpmd . text codesize --exclude vendor
+  ## - phpmd . text controversial --exclude vendor
+  ## - phpmd . text design --exclude vendor
+  ## - phpmd . text naming --exclude vendor
+  ## - phpmd . text unusedcode --exclude vendor
   ## PHPLOC
   - php phploc.phar . --exclude vendor
   ## PHPUNIT
